@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D8CCECC617DD653945BF112 /* Pods_StorageRealMUsing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03043CBCE24A68BD7FFEF06 /* Pods_StorageRealMUsing.framework */; };
+		5B91FE7A221C397500028506 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91FE79221C397500028506 /* TableViewCell.swift */; };
+		5B91FE7D221C4A0200028506 /* TodlistCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B91FE7B221C4A0200028506 /* TodlistCoreData.xcdatamodeld */; };
+		5BC5526E221E86FB0067B5E2 /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC5526D221E86FB0067B5E2 /* ToDoListItem.swift */; };
 		5BE1366B221C09E00050C571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1366A221C09E00050C571 /* AppDelegate.swift */; };
 		5BE1366D221C09E00050C571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1366C221C09E00050C571 /* ViewController.swift */; };
 		5BE13670221C09E00050C571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE1366E221C09E00050C571 /* Main.storyboard */; };
@@ -15,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		022399E2F66627D7C1DF614A /* Pods-StorageRealMUsing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorageRealMUsing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StorageRealMUsing/Pods-StorageRealMUsing.debug.xcconfig"; sourceTree = "<group>"; };
+		050514B609734E9F6E0D61B8 /* Pods-StorageRealMUsing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorageRealMUsing.release.xcconfig"; path = "Pods/Target Support Files/Pods-StorageRealMUsing/Pods-StorageRealMUsing.release.xcconfig"; sourceTree = "<group>"; };
+		5B91FE79221C397500028506 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5B91FE7C221C4A0200028506 /* TodlistCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodlistCoreData.xcdatamodel; sourceTree = "<group>"; };
+		5BC5526D221E86FB0067B5E2 /* ToDoListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
 		5BE13667221C09E00050C571 /* StorageRealMUsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageRealMUsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE1366A221C09E00050C571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BE1366C221C09E00050C571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		5BE13671221C09F90050C571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE13674221C09F90050C571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BE13676221C09F90050C571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03043CBCE24A68BD7FFEF06 /* Pods_StorageRealMUsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StorageRealMUsing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8CCECC617DD653945BF112 /* Pods_StorageRealMUsing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3683E0DEE679E97666BAFAD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				022399E2F66627D7C1DF614A /* Pods-StorageRealMUsing.debug.xcconfig */,
+				050514B609734E9F6E0D61B8 /* Pods-StorageRealMUsing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FA3FEF19A6731B842ED32AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03043CBCE24A68BD7FFEF06 /* Pods_StorageRealMUsing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5BE1365E221C09E00050C571 = {
 			isa = PBXGroup;
 			children = (
 				5BE13669221C09E00050C571 /* StorageRealMUsing */,
 				5BE13668221C09E00050C571 /* Products */,
+				3683E0DEE679E97666BAFAD9 /* Pods */,
+				3FA3FEF19A6731B842ED32AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +90,9 @@
 				5BE13671221C09F90050C571 /* Assets.xcassets */,
 				5BE13673221C09F90050C571 /* LaunchScreen.storyboard */,
 				5BE13676221C09F90050C571 /* Info.plist */,
+				5BC5526D221E86FB0067B5E2 /* ToDoListItem.swift */,
+				5B91FE79221C397500028506 /* TableViewCell.swift */,
+				5B91FE7B221C4A0200028506 /* TodlistCoreData.xcdatamodeld */,
 			);
 			path = StorageRealMUsing;
 			sourceTree = "<group>";
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BE13679221C09F90050C571 /* Build configuration list for PBXNativeTarget "StorageRealMUsing" */;
 			buildPhases = (
+				A3C7237A8C44242C5EB68C9C /* [CP] Check Pods Manifest.lock */,
 				5BE13663221C09E00050C571 /* Sources */,
 				5BE13664221C09E00050C571 /* Frameworks */,
 				5BE13665221C09E00050C571 /* Resources */,
+				1822013C2FAE55DDCADF2309 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +165,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1822013C2FAE55DDCADF2309 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StorageRealMUsing/Pods-StorageRealMUsing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StorageRealMUsing/Pods-StorageRealMUsing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3C7237A8C44242C5EB68C9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StorageRealMUsing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BE13663221C09E00050C571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B91FE7A221C397500028506 /* TableViewCell.swift in Sources */,
 				5BE1366D221C09E00050C571 /* ViewController.swift in Sources */,
+				5B91FE7D221C4A0200028506 /* TodlistCoreData.xcdatamodeld in Sources */,
+				5BC5526E221E86FB0067B5E2 /* ToDoListItem.swift in Sources */,
 				5BE1366B221C09E00050C571 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +359,7 @@
 		};
 		5BE1367A221C09F90050C571 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022399E2F66627D7C1DF614A /* Pods-StorageRealMUsing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +378,7 @@
 		};
 		5BE1367B221C09F90050C571 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 050514B609734E9F6E0D61B8 /* Pods-StorageRealMUsing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -336,6 +417,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B91FE7B221C4A0200028506 /* TodlistCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B91FE7C221C4A0200028506 /* TodlistCoreData.xcdatamodel */,
+			);
+			currentVersion = 5B91FE7C221C4A0200028506 /* TodlistCoreData.xcdatamodel */;
+			path = TodlistCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5BE1365F221C09E00050C571 /* Project object */;
 }
